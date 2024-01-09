@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+/* header-related styles */
+
+.banner{
+    background: url('../resources/Banner\ Image.png'); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    
+   
+    
+    
+
+    height: 600px;
+    margin: 30px 50px;
+    border-radius: 6px;
+
+}
+.banner-text{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 280px;
+    color: white;
+    
+}
+.banner-heading{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 2px;
+
+}
+.banner-description{
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px
+}
+
+/* 65% off related */
+.container-1{
+    max-width: 600px;
+    margin: 0px auto;
+    text-align: center;
+    /* background-color: brown; */
+    
+    
+    
+}
+.container-1 .container-1-image{
+    display: flex;
+    justify-content: center;
+}
+.container-1-text h1{
+    color: red;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Inter;
+    margin-bottom: 20px;
+}
+.container-1-text .holiday{
+    color: red;
+
+    
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 5px;
+    
+}
+.container-1-text .all{
+    color: #070211;
+
+    
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    
+    margin-bottom: 50px;
+}
+/* wellcome to midnight party related styles */
+
+.container-2{
+    background-image: url('../resources/Vectorrr.png');
+    max-width: 1240px;
+    margin: 60px auto;
+    height: 600px;
+    border-radius: 25px;
+    
+    
+}
+.container-2-element{
+display: flex;
+align-items: center;
+padding: 80px 100px;
+}
+.container-2-text-heading{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.container-2-text-description{
+color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.join-now{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+/* schedule related tags */
+
+.schedule{
+    max-width: 1240px;
+    background-color: pink;
+    margin: 60px auto;
+    height: 300px;
+    border-radius: 10px;
+}
+.schedule-tex{
+    text-align: center;
+    padding-top: 85px;
+    
+    
+    
+}
+.schedule-tex p{
+    margin-bottom: 5px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+.schedule-tex p span{
+    color: red;
+}
+.schedule-button{
+    background-color: red;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin-top: 10px;
+    
+}
