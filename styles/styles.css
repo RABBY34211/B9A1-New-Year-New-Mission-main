@@ -172,3 +172,100 @@ line-height: 30px;
     margin-top: 10px;
     
 }
+/* gift related styles */
+.gift{
+    /* background-color: aqua; */
+    max-width: 1240px;
+    margin: 60px auto;
+}
+.image{
+    width: 380px;
+    height: 300px;
+}
+.gift-image-1 ,.gift-image-2{
+    display: flex;
+    justify-content: space-between;
+}
+.gift-image-1{
+    margin-bottom: 45px;
+}
+.gift-heading{
+
+    color: red;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 10px;
+    
+}
+.gift-title{
+    color: black;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.gift-description{
+color: rgba(7, 2, 17, 0.60);
+width: 760px;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+margin-bottom: 30px;
+}
+/* subscribe related styles */
+.subscribe{
+    max-width: 1240px;
+    height: 450px;
+    margin: 60px auto;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding-top: 60px;
+}
+.gmail-button button{
+    background-color: red;
+}
+.subscribe-heading{
+    color: black;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+.subscribe-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 10px;
+    
+}
+.gmail-button button{
+    color: #FFF;
+    padding: 12px 30px;
+    border-left: none;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    position: relative;
+    left: -4px;
+    
+}
+.gmail-button input{
+padding: 12px 20px;
+color: rgba(7, 2, 17, 0.30);
+border-radius: 50px 0px 0px 50px;
+border: none;
+}
+.gmail-button{
+    margin-top: 20px;
+}
+
